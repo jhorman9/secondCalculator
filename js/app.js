@@ -21,10 +21,10 @@ function calcular(e) {
       //calcula el porcentaje del valor que puse
       // se queda con la operacion
       newValue = value.replace(/[^\d?]/g, " ");
-      const oeprador = value.replace(/[\d?]/g, " ").trim();
+      const operador = value.replace(/[\d?]/g, " ").trim();
       values = newValue.split(" ");
       let porcentaje = (values[0] * values[1]) / 100;
-      value = `${values[0]}${oeprador}${porcentaje}`;
+      value = `${values[0]}${operador}${porcentaje}`;
       display.textContent = value;
       break;
     case "+":
