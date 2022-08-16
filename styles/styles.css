@@ -39,7 +39,6 @@ body {
 }
 
 .calculadora {
-  margin: 0 auto;
   padding: 70px 30px;
   background: var(--black);
   border-radius: 70px;
@@ -78,6 +77,11 @@ body {
   font-weight: 700;
   font-size: 35px;
   padding: 25px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 5px solid var(--white);
 }
 
 .big-btn {
